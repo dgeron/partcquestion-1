@@ -65,6 +65,25 @@ public class DataController {
         return users;
     }
 
+    public List<Team> loadTeams() {
+        final List<Team> teams = new ArrayList<>();
+        usersRef.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                for(DataSnapshot userSnapshot : dataSnapshot.getChildren()){
+                    Team team = userSnapshot.getValue(Team.class);
+                    teams.add(team);
+                }
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+        return teams;
+    }
+
     public List<MyMarker> loadMarkers() {
         final List<MyMarker> markers = new ArrayList<>();
         markersRef.addListenerForSingleValueEvent(new ValueEventListener() {

@@ -60,6 +60,6 @@
         android:layout_alignBottom="@+id/fragment_layout"
         android:layout_gravity="end"
         android:layout_margin="16dp"
-        android:src="@drawable/ic_my_icon"
+        android:src="@drawable/logo"
         app:backgroundTint="@color/bright_blue" />
 </RelativeLayout>

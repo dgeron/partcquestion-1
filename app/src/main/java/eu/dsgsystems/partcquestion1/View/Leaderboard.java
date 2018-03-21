@@ -33,7 +33,6 @@ public class Leaderboard extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_leaderboard);
         this.setTitle("Leaderboard");
-        myUsers = dataController.loadUsers();
         final ListView listview = (ListView) findViewById(R.id.listview);
         String[] values = getLeadScorers();
 

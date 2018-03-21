@@ -145,7 +145,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         fab2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MapsActivity.this, ImageGalleryActivity.class);
+                Intent intent = new Intent(MapsActivity.this, MyListActivity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                intent.putExtra("User", myUser);
                 startActivity(intent);
             }
         });

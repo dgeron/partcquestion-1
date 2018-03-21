@@ -40,7 +40,7 @@
         <activity android:name="eu.dsgsystems.partcquestion1.View.URLVideoActivity" android:theme="@style/AppTheme.Dark"/>
         <activity android:name="eu.dsgsystems.partcquestion1.View.SignupActivity" android:theme="@style/AppTheme.Dark"/>
         <activity android:name="eu.dsgsystems.partcquestion1.View.Leaderboard" android:label="@string/title_activity_leadeboard"/>
-        <activity android:name="eu.dsgsystems.partcquestion1.View.ImageGalleryActivity" android:theme="@style/AppTheme.Dark"/>
+        <activity android:name="eu.dsgsystems.partcquestion1.View.MyListActivity" android:theme="@style/AppTheme.Dark"/>
         <service android:name="eu.dsgsystems.partcquestion1.Controller.MusicService" />
 
     </application>
