@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "726959820803",
+    "firebase_url": "https://partcquestion1.firebaseio.com",
+    "project_id": "partcquestion1",
+    "storage_bucket": "partcquestion1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726959820803:android:f2b60d13d7c060a1",
+        "android_client_info": {
+          "package_name": "eu.dsgsystems.partcquestion1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726959820803-0jm55ua5u9s6gdqcnm8kkcbukpnqhhmk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXMjVJ16sfygb8hveM6q9HoFeZsTDa3cg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
